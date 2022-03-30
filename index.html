@@ -29,6 +29,179 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Other CSS for project work -->
+    <!-- <meta content="I&#x27;m a UX designer with 10 years&#x27; experience at Airbnb, Dropbox, Segment and Xero." name="description" />
+    <meta content="Arlen McCluskey · Design Portfolio" property="og:title" />
+    <meta content="https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5e857a8528ae07866c41082e_Arlen-McCluskey.jpg" property="og:image" />
+    <meta content="Arlen McCluskey · Design Portfolio" property="twitter:title" />
+    <meta content="https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5e857a8528ae07866c41082e_Arlen-McCluskey.jpg" property="twitter:image" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
+    <!-- <link href="https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/css/arlen.webflow.007b4ee76.css" rel="stylesheet" type="text/css" /> -->
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+    <script type="text/javascript">
+        ! function(o, c) {
+            var n = c.documentElement,
+                t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n
+                .className += t + "touch")
+        }(window, document);
+    </script>
+    <link href="https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5ea8c7cb536b872177ab49d3_Favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5ea8c883bff98a15ca646163_Favicon-256.png" rel="apple-touch-icon" />
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-5418580-11"></script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-5418580-11', {
+            'anonymize_ip': false
+        });
+    </script>
+    <style type="text/css">
+        html {
+            background-color: #222;
+        }
+        
+        body {
+            -webkit-font-smoothing: antialiased;
+        }
+        
+         ::selection {
+            background-color: #222;
+            color: #f8f8f8;
+        }
+        
+        html.w-lightbox-noscroll {
+            position: static;
+        }
+    </style>
+    <script>
+        lightbox.option({
+            disableScrolling: true
+        })
+    </script>
+    <script src="https://arlenmccluskey.com/assets/js/jquery-3.1.0.min.js"></script>
+    <script src="https://arlenmccluskey.com/assets/js/demo.js"></script>
+    <script src="https://arlenmccluskey.com/assets/js/noise.min.js"></script>
+    <script src="https://arlenmccluskey.com/assets/js/shift.js"></script>
+    <script src="https://arlenmccluskey.com/assets/js/util.js"></script>
+
+    <script>
+    </script>
+
+    <style>
+        .project-preview-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .project-preview-item:last-child .short-divider {
+            display: none;
+        }
+    </style>
+    <style>
+        .animatedwrapper {
+            overflow: hidden;
+            position: absolute;
+            left: 0px;
+            top: -100px;
+            z-index: 0;
+            width: 100%;
+            height: 2000px;
+            isolation: isolate;
+            /* 
+  Add fallback background here
+  background: url();
+  */
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .animatedwrapper {
+                top: -500px;
+            }
+            .dot {
+                --size: 100px;
+            }
+        }
+        
+        .dot {
+            --size: 700px;
+            /* Only show the animated dots for browsers that support the required features */
+            display: none;
+            position: absolute;
+            left: calc(var(--size) / 3 * -1);
+            top: calc(var(--size) / 3 * -1);
+            width: var(--size);
+            height: var(--size);
+            mix-blend-mode: soft-light;
+            border-radius: var(--size);
+            filter: blur(calc(var(--size) / 6));
+            animation: dot-animation ease-in-out 20s infinite;
+            will-change: transform;
+        }
+        
+        @supports (mix-blend-mode: soft-light) and (filter: blur(1px)) {
+            .animatedwrapper {
+                /* Remove the fallback background image when the features are supported */
+                background: none;
+            }
+            .dot {
+                /* Only show the animated dots for browsers that support the required features */
+                display: block;
+            }
+        }
+        
+        .dot--one {
+            background: #ed2a24;
+        }
+        
+        .dot--two {
+            background: #f48937;
+            animation-delay: -7s;
+        }
+        
+        .dot--three {
+            background: #bd3690;
+            animation-delay: -14s;
+        }
+        
+        @keyframes dot-animation {
+            0% {
+                transform: translate(0, 0);
+            }
+            33% {
+                transform: translate(calc(var(--size) / 1.5), 0);
+            }
+            66% {
+                transform: translate(0, calc(var(--size) / 1.5));
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+    </style>
+    <style>
+        .content--canvas canvas {
+            z-index: -1;
+            position: absolute !important;
+            display: none;
+        }
+    </style>
+    <style>
+        .vl {
+            border-left: 2px solid black;
+            height: 230px;
+        }
+    </style>
+
+    <!-- css ends -->
+
+
+
 
 </head>
 
@@ -73,7 +246,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#portfolios">
-                                Work
+                               Project Work
                             </a>
                         </li>
                         <li class="nav-item">
@@ -100,7 +273,7 @@
                     <a href="#resume">resume</a>
                 </li>
                 <li>
-                    <a href="#portfolio">Work</a>
+                    <a href="#portfolio">Project Work</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
@@ -122,24 +295,19 @@
                             <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Software Developer</p>
                             <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
                                 <li>
-                                    <a class="facebook" href="#"><i
-                                            class="icon-social-facebook"></i></a>
+                                    <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
                                 </li>
                                 <li>
-                                    <a class="twitter" href="#"><i
-                                            class="icon-social-twitter"></i></a>
+                                    <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
                                 </li>
                                 <li>
-                                    <a class="instagram" href="#"><i
-                                            class="icon-social-instagram"></i></a>
+                                    <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
                                 </li>
                                 <li>
-                                    <a class="linkedin" href="#"><i
-                                            class="icon-social-linkedin"></i></a>
+                                    <a class="linkedin" href="#"><i class="icon-social-linkedin"></i></a>
                                 </li>
                                 <li>
-                                    <a class="google" href="#"><i
-                                            class="icon-social-google"></i></a>
+                                    <a class="google" href="#"><i class="icon-social-google"></i></a>
                                 </li>
                             </ul>
                             <!-- <div class="header-button wow fadeInUp" data-wow-delay="1s">
@@ -215,7 +383,7 @@
                         </div>
                         <div class="services-content">
                             <h3><a href="#">Front-end Development</a></h3>
-                            <p>I have design best and attractive Front End For Website As Well As web-Application Using Languages like<br />HTML, javascript, CSS, Jinja Template.</p>
+                            <p>I have design best and attractive Front End For Website<br> As Well As web-Application Using Languages<br> like<br /><b>HTML, javascript, CSS, Jinja Template.</b></p>
                         </div>
                     </div>
                 </div>
@@ -227,7 +395,7 @@
                         </div>
                         <div class="services-content">
                             <h3><a href="#">Back-end Development</a></h3>
-                            <p>I have worked on Back-end development using My-SQL, Pl-SQL, PHP For development of <br> websites and web-based Application and as well as for Desktop based applications and stand-Alone.
+                            <p>I have worked on Back-end development using <b> My-SQL, Pl-SQL, PHP</b> For development of <br> websites and web-based Application and as well as for Desktop based applications and stand-Alone.
                             </p>
                         </div>
                     </div>
@@ -240,7 +408,7 @@
                         </div>
                         <div class="services-content">
                             <h3><a href="#">Full-Stack</a></h3>
-                            <p>I have Worked on Full-Stack Appliaction development also Using Django and Pl-SQL<br> Using Python and DRF<br> (Django REST Framework).</p>
+                            <p>I have Worked on Full-Stack Appliaction development also <b>Using Django and Pl-SQL<br> Using Python and DRF</b><br> (Django REST Framework).</p>
                         </div>
                     </div>
                 </div>
@@ -252,7 +420,7 @@
                         </div>
                         <div class="services-content">
                             <h3><a href="#">Mobile Application</a></h3>
-                            <p>Many Mobile App Designed in B4A as well as Android-Studio For Basic Use in daily life.
+                            <p>Many Mobile App Designed in<b> B4A</b> as well as <b>Android-Studio</b> For Basic Use in daily life.
                             </p>
                         </div>
                     </div>
@@ -261,6 +429,92 @@
         </div>
     </section>
     <!-- Services Section End -->
+    <style>
+        .column {
+            float: left;
+            width: 50%;
+            padding: 20px;
+            height: 300px;
+            /* Should be removed. Only for demonstration */
+        }
+        
+        .rowTable:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+    <!-- Project Work Start -->
+    <section id="services" class="services section-padding">
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">Project Work</h2>
+        <div class="container">
+            <!-- First Card -->
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="card">
+                        <div class="rowTable">
+                            <div class="column">
+                                <h1 class="section-title wow flipInX" data-wow-delay="0.4s">
+                                    Face Detection and Recognition
+                                </h1>
+                                <p>
+                                    <b>A Python program which can help to detetct the face.</b>
+                                    <br>Using this we can not only detetct the face but also recognize person.<br>And main function is after Recognition it can Mark the Attendance of Student Or Employee.
+                                </p>
+                            </div>
+                            <div class="column">
+                                <!-- <div class="vl"> -->
+                                <!-- <div class="column"> -->
+                                <video width="450" height="250" controls>
+                                            <source src="assets/img/Face Detection Demo 2.mp4" type="video/mp4">
+                                            <!-- <source src="movie.ogg" type="video/ogg"> -->
+                                            Your browser does not support the video tag.
+                                        </video>
+                                <!-- </div> -->
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <!-- Second Card -->
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="card">
+                        <div class="rowTable">
+                            <div class="column">
+                                <h1 class="section-title wow flipInX" data-wow-delay="0.4s">
+                                    Number-Plate Detetction and Extraction
+                                </h1>
+                                <p>
+                                    <b>A Python program which can help to detetct and Extract the Number-Plate for vehicales.</b>
+                                    <br>In this when we provide a video to this program.<br>Using Digital Image Processing Algoritms it will detect the license-plate and Extract the Number from it.
+                                </p>
+                            </div>
+                            <div class="column">
+                                <!-- <div class="vl"> -->
+                                <!-- <div class="column"> -->
+                                <video width="450" height="250" controls>
+                                            <source src="assets/img/numberplateVid.mp4" type="video/mp4">
+                                            <!-- <source src="movie.ogg" type="video/ogg"> -->
+                                            Your browser does not support the video tag.
+                                        </video>
+                                <!-- </div> -->
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- Project Work End -->
 
     <!-- Resume Section Start -->
     <div id="resume" class="section-padding">
@@ -599,20 +853,16 @@
                     <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
                         <ul class="social-icon">
                             <li>
-                                <a class="facebook" href="#"><i
-                                        class="icon-social-facebook"></i></a>
+                                <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
                             </li>
                             <li>
-                                <a class="twitter" href="#"><i
-                                        class="icon-social-twitter"></i></a>
+                                <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
                             </li>
                             <li>
-                                <a class="instagram" href="#"><i
-                                        class="icon-social-instagram"></i></a>
+                                <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
                             </li>
                             <li>
-                                <a class="linkedin" href="#"><i
-                                        class="icon-social-linkedin"></i></a>
+                                <a class="linkedin" href="#"><i class="icon-social-linkedin"></i></a>
                             </li>
                             <li>
                                 <a class="instagram" href="https://mail.google.com/mail/u/0/#inbox"><i
@@ -649,7 +899,44 @@
     <script src="assets/js/contact-form-script.min.js"></script>
     <script src="assets/js/map.js"></script>
 
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5e2520252e290c852ed89624" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+    </script>
+    <script src="https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/js/webflow.27972c495.js" type="text/javascript"></script>
+    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+    <script>
+        $(document).ready(function() {
+            $('a.w-inline-block.w-lightbox')
+                .click(function(e) {
+                    e.preventDefault();
+                    const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
+                    $('body').css('position', 'fixed').css('top', `-${scrollY}`);
+                });
+            $('.w-lightbox-close')
+                .click(function(e) {
+                    e.preventDefault();
+                    $('body').css('position', 'initial').css('top', '');
+                });
+        });
 
+
+
+        $('a').click(function(e) {
+            e.preventDefault(); // prevent default anchor behavior
+            var goTo = this.getAttribute("href"); // store anchor href
+
+            // do something while timeOut ticks ... 
+
+            setTimeout(function() {
+                window.location = goTo;
+            }, 800); // time in ms
+        });
+
+        $(window).bind("pageshow", function(event) {
+            if (event.originalEvent.persisted) {
+                window.location.reload()
+            }
+        });
+    </script>
 </body>
 
 </html>
