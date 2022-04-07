@@ -200,12 +200,12 @@ button:focus {
 .social-icon li a {
     color: #000;
     background: #fff;
-    width: 35px;
-    height: 35px;
-    line-height: 38px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
     display: block;
     text-align: center;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     font-size: 16px;
     margin: 15px 6px 12px 6px;
     transition: all 0.3s ease-in-out 0s;
